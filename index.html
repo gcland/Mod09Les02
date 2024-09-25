@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Mod09Les0-Task2</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js.bootstrap.js"> s</script>
+</head>
+<body>
+    <section id="services">
+    <h2 class="m-2">Our Services</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-3 align-items-center">
+        <div class="col-md">
+            <img src="Images/Service1.jpg" style="width: auto; height:250px;" alt="Service1" class="mx-2">
+            <h5 class="m-2">Service 1</h5>
+            <p class="ms-2">Service 1: Info-paragraph. Info-paragraphInfo-paragraphInfo-paragraphInfo-paragraphInfo-paragraph</p>
+        </div>
+        <div class="col-md">
+            <img src="Images/Service2.jpg" style="width: auto; height:250px;" alt="Service2" class="mx-2">
+            <h5 class="m-2">Service 2</h5>
+            <p class="ms-2">Service 2: Info-paragraph. Info-paragraphInfo-paragraphInfo-paragraphInfo-paragraphInfo-paragraph</p>
+        </div>
+        <div class="col-md">
+            <img src="Images/Service3.jpg" style="width: auto; height:250px;" alt="Service3" class="mx-2">
+            <h5 class="m-2">Service 3</h5>
+            <p class="ms-2">Service 3: Info-paragraph. Info-paragraphInfo-paragraphInfo-paragraphInfo-paragraphInfo-paragraph</p>
+        </div>
+      </div>
+    </section>
+</body>
+<hr>
+<footer>
+    <section id="form">
+    <h2 class="m-2">Form</h2>
+        <div class="row mx-2">
+            <div class="col-md-3">
+                <label for="formControlInput" class="form-label">Name</label>
+                <input type="text" class="form-control" id="formControlInput" placeholder="Jane Doe">
+            </div>
+            <div class="col-md-3">
+                <label for="formControlInput" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="formControlInput" placeholder="name@example.com">  
+            </div>
+            <div class="col-md-3">
+                <!-- Assumed only one service could be selected here by user by design; otherwise checkbox would be used
+                here if more than one service could be selected -->
+                <h6>Select a Service:</h6>
+                <select class="form-select" aria-label="Default select">
+                    <option selected="">Select a service</option>
+                    <option value="1">Service 1</option>
+                    <option value="2">Service 2</option>
+                    <option value="3">Service 3</option>
+                  </select>
+            </div>
+            <div class="col-md-3">
+                <h6>Message Box:</h6>
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea" style="height: 100px"></textarea>
+                    <label for="floatingTextarea">Comments</label>
+                  </div>
+            </div>
+      </div>
+    </section>
+</footer>
